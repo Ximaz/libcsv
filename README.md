@@ -76,3 +76,6 @@ gcc main.c -o csv_parser -lcsv
 ```bash
 ./csv_parser example.csv
 ```
+
+# Knowned Issue
+The parser won't work for CSV files whose lines are ending by `CRLF`. If you're on windows, you may reformat the file to transform `CRLF` into `LF`.
