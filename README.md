@@ -3,20 +3,5 @@ This repository was created in order to create a ``libcsv.a`` using the C langua
 
 # Installation
 ```bash
-# ===============================
-# |    Clone the repository     |
-# ===============================
-git clone https://github.com/Ximaz/libcsv.git
-cd libcsv
-
-make -sC libs # Builds the libcsv.a
-
-# ===============================
-# | Once you changed src/main.c |
-# ===============================
-make csv_parser # Build the csv_parser program
-
-# Example :
-# ./csv_parser <my_csv_file.csv>
-#
+curl -s -X GET https://raw.githubusercontent.com/Ximaz/libcsv/main/install.bash | /bin/bash
 ```

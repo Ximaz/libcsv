@@ -2,7 +2,7 @@ CC		:=	gcc
 NAME	:=	libcsv.a
 CFLAGS	:=	-Wall -Wextra -Werror -ansi -pedantic -fno-builtin -O3 -I./include
 SRC		:=	$(wildcard src/*.c)
-INC		:=	include/csv_parser.h
+INC		:=	include/csv.h
 INC_FOL	:=	../../include/
 OBJ		:=	$(SRC:.c=.o)
 

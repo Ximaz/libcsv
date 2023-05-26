@@ -1,4 +1,4 @@
-#include <csv_parser.h>
+#include <csv.h>
 
 void free_cols(char **cols, size_t cols_number)
 {
